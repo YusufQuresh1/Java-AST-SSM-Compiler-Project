@@ -1,0 +1,116 @@
+	push tobe
+	dup
+	push 5
+	swap
+	store
+	push 1
+	add
+	dup
+	push 84
+	swap
+	store
+	push 1
+	add
+	dup
+	push 111
+	swap
+	store
+	push 1
+	add
+	dup
+	push 32
+	swap
+	store
+	push 1
+	add
+	dup
+	push 66
+	swap
+	store
+	push 1
+	add
+	dup
+	push 101
+	swap
+	store
+	push ornot
+	dup
+	push 9
+	swap
+	store
+	push 1
+	add
+	dup
+	push 44
+	swap
+	store
+	push 1
+	add
+	dup
+	push 32
+	swap
+	store
+	push 1
+	add
+	dup
+	push 111
+	swap
+	store
+	push 1
+	add
+	dup
+	push 114
+	swap
+	store
+	push 1
+	add
+	dup
+	push 32
+	swap
+	store
+	push 1
+	add
+	dup
+	push 110
+	swap
+	store
+	push 1
+	add
+	dup
+	push 111
+	swap
+	store
+	push 1
+	add
+	dup
+	push 116
+	swap
+	store
+	push 1
+	add
+	dup
+	push 32
+	swap
+	store
+	push tobe
+	push 4
+	sysc
+	push ornot
+	push 4
+	sysc
+	push tobe
+	push ornot
+	store
+	push ornot
+	load
+	push 4
+	sysc
+	push 63
+	push 1
+	sysc
+	push 2
+	sysc
+	halt
+.data
+tobe: "     "
+ornot: "         "

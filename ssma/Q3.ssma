@@ -1,0 +1,54 @@
+	push 6
+	push x
+	store
+$start_while_0:
+	push x
+	load
+	push $end_while_1
+	jump_z
+	push x
+	load
+	push 3
+	sysc
+	push y
+	load
+	push x
+	load
+	add
+	push y
+	store
+	push x
+	load
+	push 1
+	sub
+	push x
+	store
+	push $start_while_0
+	jump
+$end_while_1:
+	push 2
+	sysc
+$start_while_2:
+	push y
+	load
+	push $end_while_3
+	jump_z
+	push y
+	load
+	push 3
+	sysc
+	push 2
+	sysc
+	push y
+	load
+	push 7
+	div
+	push y
+	store
+	push $start_while_2
+	jump
+$end_while_3:
+	halt
+.data
+x: 0
+y: 0
